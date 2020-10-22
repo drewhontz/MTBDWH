@@ -35,6 +35,7 @@ t_id
 t_difficulty_id
 t_location_id
 t_condition_id
+t_is_rideable
 t_stars
 t_votes
 t_length
@@ -72,4 +73,5 @@ c_is_latest
 c_is_rideable
 
 ## Thoughts on Organization Above
-I think the main fa
+I think the main fact table should be the TrailRating.  
+This will link to several dimensions with attributes of the trail; but also contain the more quantifiable info on the reviews, difficulty, and whether or not the trail is rideable at the current time.

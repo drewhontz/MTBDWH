@@ -1,0 +1,26 @@
+CREATE TABLE staging.mtb_project_api
+(
+	id varchar(256),
+	name varchar(256),
+	type varchar(256),
+	summary varchar(256),
+	difficulty varchar(256),
+	stars varchar(256),
+	starVotes varchar(256),
+	location varchar(256),
+	url varchar(256),
+	imgSqSmall varchar(256),
+	imgSmall varchar(256),
+	imgSmallMed varchar(256),
+	imgMedium varchar(256),
+	length varchar(256) distkey,
+	ascent varchar(256),
+	descent varchar(256),
+	high varchar(256),
+	low varchar(256),
+	longitude varchar(256),
+	latitude varchar(256),
+	conditionStatus varchar(256),
+	conditionDetails varchar(256),
+	conditionDate varchar(256)
+)
