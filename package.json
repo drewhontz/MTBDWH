@@ -1,0 +1,17 @@
+{
+  "name": "mtbdwh",
+  "version": "1.0.0",
+  "description": "JS API requests to build a datawarehouse of mountain bike routes",
+  "main": "index.js",
+  "dependencies": {
+    "json-2-csv": "^3.7.8",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "drew hontz",
+  "license": "ISC"
+}
